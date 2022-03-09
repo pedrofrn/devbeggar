@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&family=Work+Sans:wght@800&display=swap');
+
+body {
+    margin: 0 auto;
+    font-family: 'Fredoka', sans-serif;
+    background-color: #b89b79;
+    text-align: center;
+}
+
+section#image {
+    text-align: center;
+    height: 400px;
+    background: linear-gradient(0deg, rgba(184,155,121,1) 31.7%, rgba(255,105,64,1) 31.7%);
+}
+
+#pleaseHireMe {
+    background-image: url('../images/please-hire-me.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 100%;
+}
+
+section#text {
+    height: max-content;
+}
+
+.floor h1 {
+    font-size:xx-large;
+    color:#423427;
+}
+
+.floor ul#menu {
+    list-style: none;
+    padding: 0;
+    display:flex;
+    flex-direction: column;
+}
+
+.floor ul#menu li {
+    padding:15px 50px;
+    background-color:#c3a887;
+    border-radius:50px;
+    width:250px;
+    margin:10px auto;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.floor ul#menu li:hover {
+    font-weight: bold;
+    background-color:#ffc439;
+    cursor:pointer;
+}
+
+.floor ul#menu li span img {
+    width: 40px;
+    margin-right:10px;
+}
+
+.floor ul#menu div.hidden {
+    display:none;
+}
+
+div.floor p {
+    max-width: 80%;
+    margin:20px auto;
+}
+
+p.donate {
+    padding:15px 0 5px 0;
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+form {
+    margin-bottom:60px;
+}
+
+p a {
+    background-color: #0095fa;
+    color:#fff;
+    font-weight: bold;
+    padding:0 3px;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    color:#745e45;
+}
+
+footer p a {
+    color:#58442e;
+    padding:0;
+    background: none;
+}
