@@ -1,4 +1,4 @@
 # DevBeggar
-Web page designed to beg for a job and a donation, as well as sell NFTs.
+Página em HTML para divulgação profissional própria de forma lúdica.
 
-[See the website here](https://pedrofrn.github.io/devbeggar/).
+Acesse a [página aqui](https://pedrofrn.github.io/devbeggar/).
